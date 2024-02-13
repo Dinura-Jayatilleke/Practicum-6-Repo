@@ -3,7 +3,8 @@
 // ----------------------------------------------------------
 // This program will convert Celsius to Fahrenheit
 // ----------------------------------------------------------
-public class Main {
+import java.util.*;
+public class main {
   public static void main(String[] args) {
     
     // init
@@ -15,7 +16,7 @@ public class Main {
 
     // prompt for input
     System.out.println("Enter temperature (in Celsius): ");
-    cel_temp = input.next();
+    int cel_temp = input.nextInt();
 
     // display results
     System.out.println(cel_temp + " Celsius = " + 
